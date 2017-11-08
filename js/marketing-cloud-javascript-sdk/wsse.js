@@ -418,3 +418,7 @@ function Wsse(u, s, n, c)
 
     this.set(u, s, n, c);
 }
+
+if (module) {
+  module.exports = Wsse
+}
